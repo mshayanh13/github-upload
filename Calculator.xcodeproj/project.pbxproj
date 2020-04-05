@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		262795EB23E4CE47003A6943 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262795EA23E4CE47003A6943 /* main.swift */; };
+		262795F823E622B8003A6943 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262795F523E622B7003A6943 /* ConsoleIO.swift */; };
+		262795F923E622B8003A6943 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262795F623E622B7003A6943 /* main.swift */; };
+		262795FA23E622B8003A6943 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262795F723E622B7003A6943 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		262795E723E4CE47003A6943 /* Calculater */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculater; sourceTree = BUILT_PRODUCTS_DIR; };
-		262795EA23E4CE47003A6943 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		262795E723E4CE47003A6943 /* Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		262795F523E622B7003A6943 /* ConsoleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsoleIO.swift; path = Calculator/ConsoleIO.swift; sourceTree = SOURCE_ROOT; };
+		262795F623E622B7003A6943 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = Calculator/main.swift; sourceTree = SOURCE_ROOT; };
+		262795F723E622B7003A6943 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Calculator.swift; path = Calculator/Calculator.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +53,7 @@
 		262795E823E4CE47003A6943 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				262795E723E4CE47003A6943 /* Calculater */,
+				262795E723E4CE47003A6943 /* Calculator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +61,9 @@
 		262795E923E4CE47003A6943 /* Calculater */ = {
 			isa = PBXGroup;
 			children = (
-				262795EA23E4CE47003A6943 /* main.swift */,
+				262795F723E622B7003A6943 /* Calculator.swift */,
+				262795F523E622B7003A6943 /* ConsoleIO.swift */,
+				262795F623E622B7003A6943 /* main.swift */,
 			);
 			path = Calculater;
 			sourceTree = "<group>";
@@ -65,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		262795E623E4CE47003A6943 /* Calculater */ = {
+		262795E623E4CE47003A6943 /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 262795EE23E4CE47003A6943 /* Build configuration list for PBXNativeTarget "Calculater" */;
+			buildConfigurationList = 262795EE23E4CE47003A6943 /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
 				262795E323E4CE47003A6943 /* Sources */,
 				262795E423E4CE47003A6943 /* Frameworks */,
@@ -77,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = Calculater;
+			name = Calculator;
 			productName = Calculater;
-			productReference = 262795E723E4CE47003A6943 /* Calculater */;
+			productReference = 262795E723E4CE47003A6943 /* Calculator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 262795E223E4CE47003A6943 /* Build configuration list for PBXProject "Calculater" */;
+			buildConfigurationList = 262795E223E4CE47003A6943 /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				262795E623E4CE47003A6943 /* Calculater */,
+				262795E623E4CE47003A6943 /* Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				262795EB23E4CE47003A6943 /* main.swift in Sources */,
+				262795F923E622B8003A6943 /* main.swift in Sources */,
+				262795F823E622B8003A6943 /* ConsoleIO.swift in Sources */,
+				262795FA23E622B8003A6943 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		262795E223E4CE47003A6943 /* Build configuration list for PBXProject "Calculater" */ = {
+		262795E223E4CE47003A6943 /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				262795EC23E4CE47003A6943 /* Debug */,
@@ -274,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		262795EE23E4CE47003A6943 /* Build configuration list for PBXNativeTarget "Calculater" */ = {
+		262795EE23E4CE47003A6943 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				262795EF23E4CE47003A6943 /* Debug */,
